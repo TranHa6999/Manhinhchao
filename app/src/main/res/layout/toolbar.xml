@@ -1,0 +1,16 @@
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/design_default_color_primary"
+    android:elevation="100dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:text="BACK"
+        android:id="@+id/btnback1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+</androidx.appcompat.widget.Toolbar>

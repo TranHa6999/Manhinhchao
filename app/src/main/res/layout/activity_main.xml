@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/design_default_color_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="BACK"
+            android:id="@+id/btnback1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+        <TextView
+            android:textColor="#fff"
+            android:layout_marginLeft="80dp"
+            android:text="Màn hình chính"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRau"
+            android:text="Rau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <Button
+            android:id="@+id/btnThit"
+            android:text="Thịt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

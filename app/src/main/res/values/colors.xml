@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="xanh1">#66FF66</color>
+    <color name="xanh2">#66FF99</color>
+    <color name="xanh3">#66FFCC</color>
+    <color name="xanh4">#33FF33</color>
+    <color name="xanh5">#66FFFF</color>
+</resources>
